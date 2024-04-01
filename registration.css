@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(254, 254, 255);
+   }
+   .img{
+       background-image: url(image/erode\ segunthar.png);
+       min-height: 360px;
+   }
+   .topnav {
+       background-color: #0202026e;
+       overflow: hidden;
+     }
+     .logo{
+       width: 250px;
+       cursor: pointer;
+     }
+     .topnav a {
+       float: right;
+       color: #f2f2f2;
+       text-align: center;
+       padding: 8px 8px;
+       text-decoration: none;
+       font-size: 17px;
+     }
+     
+     .topnav a:hover {
+       background-color: #ffffff;
+       color: rgb(148, 132, 132);
+     }
+     
+     .topnav a.active {
+       background-color: #e0aa35;
+       color: white;
+     }
+ 
+.h3{
+    color: #a32f2f;
+}
+
+
+     * {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 10px;
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 33%;
+  padding: 20px;
+  margin: 5px 0 20px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+  text-align: center;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 50px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #222423;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  text-align:center;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: center;
+}
